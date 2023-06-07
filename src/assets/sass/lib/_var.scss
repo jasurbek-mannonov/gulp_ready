@@ -1,0 +1,126 @@
+$blue: #2D95E3;
+$darkblue: #3E3EDD;
+$navy: #0E79C9;
+$gray: #F7F7F7;
+$violet: #7B1FA2;
+$green: #27AE60;
+$orange: #E65100;
+$black: #171821;
+$red: #BD081C;
+$yellow:#FBC02D;
+
+@mixin fb($w,$py:0px,$px:15px) {
+    flex-basis: $w;
+    max-width: $w;
+    width: $w;
+    padding:$py $px;
+}
+
+@mixin bg(){
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@mixin img($w,$h){
+    width: $w;
+    height: $h;
+    object-fit: cover;
+    object-position: center;
+}
+
+@mixin font($fz:24px,$c:$black,$fw:700,$lh:auto){
+    font-size: $fz;
+    color: $c;
+    font-weight: $fw;
+    line-height: $lh;
+}
+@mixin dflex($j:center,$a:center){
+    display: flex;
+    justify-content: $j;
+    align-items: $a;
+}
+.d-flex {
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.d-center {
+    @include dflex()
+}
+.d-between {
+    @include dflex(space-between)
+}
+
+.juftify-content-end {
+    justify-content: flex-end;
+}
+.text-center{
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.bg-blue {
+    background-color: $blue;    
+}
+.bg-darkblue {
+    background-color: $darkblue;
+}
+.bg-navy {
+    background-color: $navy;
+}
+.bg-violet {
+    background-color: $violet;
+}
+.bg-green {
+    background-color: $green;
+}
+.bg-orange {
+    background-color: $orange;
+}
+.bg-red {
+    background-color: $orange;
+}
+
+.blue {
+    color: $blue;    
+}
+.darkblue {
+    color: $darkblue;
+}
+.navy {
+    color: $navy;
+}
+.violet {
+    color: $violet;
+}
+.green {
+    color: $green;
+}
+.orange {
+    color: $orange;
+}
+
+.bg-twitter{
+    background-color: #55ACEE;
+}
+.bg-facebook {
+    background-color: #36528C;
+}
+.bg-google {
+    background-color: #DE4B39;
+}
+.bg-instagram {
+    background-color: #C13282;
+}
+.bg-pinterest {
+    background-color: #BD081C;
+}
+.bg-linkedin {
+    background-color: #0077B5;
+}
