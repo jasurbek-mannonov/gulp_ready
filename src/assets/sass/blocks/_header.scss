@@ -1,0 +1,16 @@
+.header{
+    padding: 24px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .search{
+        background-color: #FFFFFF;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        max-width: 350px;
+        width: 100%;
+        gap: 12px;
+        padding: 13px 16px;
+    }
+}

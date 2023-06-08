@@ -1,0 +1,37 @@
+.aside{
+    width: 256px;
+    background: #FFFFFF;
+    box-shadow: 4px 0px 16px rgba(16, 30, 115, 0.08);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    .logo{
+        margin: 25px 25px 32px;
+    }
+    .title{
+        text-transform: uppercase;
+        color: #A0A4A8;
+        margin-left: 24px;
+        margin-bottom: 20px;
+    }
+}
+
+.nav{
+    a{
+        display: flex;
+        padding: 16px 24px;
+        align-items: center;
+        gap: 12px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        &.active,
+        &:hover{
+            background-color: $blue;
+            color: #fff;
+            img{
+                filter: brightness(0) invert(1);
+            }
+        }
+    }
+}

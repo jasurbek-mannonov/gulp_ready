@@ -1,0 +1,11 @@
+.input{
+    background: #FDFDFD;
+    border: 1px solid #BBBBBB;
+    border-radius: 10px;
+    padding: 10px 14px;
+    width: 100%;
+    display: block;
+    &:focus{
+     border-color:$green;
+    }
+ }

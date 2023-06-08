@@ -3,9 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-
-body {
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
     font-family: 'Lato', sans-serif;
 }
 
@@ -13,4 +12,15 @@ body {
 @import './lib/var';
 @import './lib/grid';
 @import './lib/main';
+@import './blocks/box';
+
+@import './blocks/button';
+@import './blocks/form';
 @import './lib/text';
+@import './blocks/card';
+@import './blocks/table';
+
+@import './page/auth';
+
+@import './blocks/aside';
+@import './blocks/header';

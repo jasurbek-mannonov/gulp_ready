@@ -1,0 +1,36 @@
+.box {
+  background: #ffffff;
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+  border-radius: 8px;
+  .title{
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #25282B;
+  }
+}
+
+.pagination{
+  display: flex;
+  gap: 4px;
+  padding: 20px 24px 24px;
+  li{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e8e8e8e8;
+    border-radius: 4px;
+    cursor: pointer;
+    &:active,
+    &:hover{
+      border-color: $blue;
+      background-color: $blue;
+      color: #fff;
+      img{
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+}

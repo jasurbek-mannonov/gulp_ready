@@ -1,0 +1,27 @@
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    td,
+    th{
+        text-align: left;
+        padding: 18px 24px;
+        font-size: 14px;
+        color: #25282B;
+    }
+    thead{
+        background-color: #E8E8E8;
+    }
+    tbody {
+        tr:hover{
+            background-color: #f6f6f6;
+        }
+    }
+    td{
+        color: #52575C;
+        border-top: 1px solid #E8E8E8;
+        padding: 12px 24px;
+        &:last-child{
+            text-align: right;
+        }
+    }
+}

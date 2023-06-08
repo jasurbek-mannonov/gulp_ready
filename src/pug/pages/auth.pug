@@ -1,0 +1,13 @@
+extends ../layouts/auth.pug
+
+block content 
+    .auth 
+        .box 
+            h4.mb-20 Tizimga kirish 
+            form(name="login").form 
+                .mb-20 
+                    input.input(type="text" placeholder="Login") 
+                .mb-20 
+                    input.input(type="password" placeholder="Parol")
+            a(href="#").link Ro`yxatdan o`tish
+            button.btn.success Kirish

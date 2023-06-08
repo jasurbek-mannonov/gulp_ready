@@ -1,0 +1,21 @@
+.card {
+  background: #4b5bc52b;
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  .title{
+    font-size: 14px;
+    color: #25282B;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    margin-bottom: 4px;
+  }
+  .nums{
+    font-size: 18px;
+    color: #336CFB;
+  }
+}

@@ -1,0 +1,29 @@
+.btn{
+    padding: 9px 20px;
+    min-width: 130px;
+    border-radius: 10px;
+    &.success{
+        background-color: $green;
+        color: #fff;
+    }
+}
+
+.add{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: $blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    &:hover{
+        background-color: darken($blue, 10%);
+    }
+    img{
+        width: 26px;
+        filter: brightness(0) invert(1);
+    }
+}
