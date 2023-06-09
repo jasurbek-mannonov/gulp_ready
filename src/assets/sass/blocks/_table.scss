@@ -25,3 +25,21 @@
         }
     }
 }
+
+.info{
+    width: 100%;
+    td{
+        padding: 10px 0;
+    }
+    td:nth-child(odd){
+        font-weight: 400;
+        color: #606060;
+        font-size: 14px;
+        width: 130px;
+    }
+    td:nth-child(even){
+        font-weight: 700;
+        color: #000;
+        font-size: 16px;
+    }
+}

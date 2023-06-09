@@ -1,0 +1,32 @@
+.view{
+    background-color: #fff;
+    box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+    border-radius: 8px;
+    &__top{
+        display: flex;
+        border-bottom: 1px solid #BDBDBD; 
+        &>img{
+            width: 199px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    &__head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__content{
+        flex: 1;
+        padding: 20px;
+    }
+    .title{
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    &__tables{
+        padding: 20px;
+        border-bottom: 1px solid #BDBDBD; 
+    }
+}

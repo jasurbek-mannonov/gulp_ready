@@ -1,5 +1,9 @@
 .box.mt-20
-    .title Bemorlar
+    .d-flex.align-items-center.justify-content-between
+        .title Bemorlar
+        button.create
+            span +
+            | Yangi kasallik tarixi 
     table.table
         thead 
             tr 
@@ -71,3 +75,5 @@
         li: img(src="./assets/img/right.png", alt="arrow-right")
 button.add
     img(src="./assets/img/doctors.svg", alt="doctors icon")
+
+//- include ../modal.pug 
